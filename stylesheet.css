@@ -1,0 +1,175 @@
+*{
+	font-family: arial;
+	font-size: small;
+}
+
+
+#header{
+	height : 60px;
+	padding-top: 5px;
+	padding-right: 8px;
+	text-align:center
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+	color: black;
+	line-height: 10px;
+	display: inline-block;
+	padding-right: 3px;
+    width: 50px;
+}
+
+.toptext{
+    vertical-align: middle;
+}
+
+.toptext:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.topbutton{
+	opacity: .6;
+	vertical-align:middle;
+}
+
+.topbutton:hover{
+	opacity: 1;
+}
+
+#share{
+	background-color: #E9E9E9;
+	height: 20px;
+	padding-top: 10px;
+	padding-right: 22px;
+	vertical-align:middle;
+}
+
+#share a{
+	padding: 20px;
+}
+
+#usercircle{
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	vertical-align:middle;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+#logo{
+	text-align:center;
+	height: 231px;
+}
+
+#google{
+	height: 95px;
+	width: 269px;
+	padding-top: 112px;
+}
+
+#searchbar{
+	margin-left: auto;
+    margin-right: auto;
+	width: 570px;
+	height: 25px;
+	border-color: #E6E6E6;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#search{
+	border-width: 0px;
+	height:23px;
+	width: 550px;
+	float:left;
+}
+
+#searchbar:select{
+	border-color:purple;
+}
+
+
+#mic{
+	padding-top:3px;
+	width:13px;
+	height:18px;
+	opacity: .6;
+}
+
+#buttons{
+	text-align:center;
+}
+
+.searchbuttons{
+	margin: 15px 10px 15px 10px;
+	background-color:#F1F1F1;
+	border-width:0px;
+	font-weight:bold;
+	font-size:11px;
+	font-color:#5F5F5F;
+	height: 29px;
+	width:105px;
+	}
+
+.searchbuttons:hover{
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+	color: #000000;
+	}
+
+#bottombar{
+	bottom:0;
+	height:40px;
+	width:100%;
+	background: #E9E9E9;
+	position:fixed;
+	border-top: 1px solid rgb(228, 228, 228);
+}
+
+#left, #right{
+	display: inline-block;
+	padding-top:13px;
+	position:absolute;
+
+}
+
+#left{
+	left: 20px;
+	float:left;
+}
+
+#left a{
+	margin-right:30px;
+	color: #7D7D7D;
+
+}
+
+#right a{
+	margin-left: 30px;
+	color: #7D7D7D;
+
+}
+
+#right{
+	right:40px;
+	float:right;
+}
+
+#left a:hover, #right a:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+
+
